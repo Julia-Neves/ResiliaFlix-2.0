@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
     <title>ResiliaFlix 2.0</title>
 </head>
 
@@ -18,48 +18,81 @@
     <section id="section-central" class="section-central position-absolute top-50 start-50 translate-middle">
         <img src="imgs/img/resiliaflixlogo.png" class="rounded mx-auto d-block resiliaflix-logo border-bottom mt-2">
         <h2 class="signup fonte-padrao mt-3 ">Sign up!</h2>
-        <form class="row g-3 m-3 text-center">
+        <form class="row g-3 m-3 text-center needs-validation" novalidate action="pagInicial.html">
             <div class="col-md-4">
-                <input type="text" class="form-control input-signup" id="inputFirstName" placeholder="First Name">
+                <input type="text" class="form-control input-signup fonte-padrao fs-4" id="inputFirstName" placeholder="First Name" required>
             </div>
             <div class="col-md-4">
-                <input type="text" class="form-control input-signup" id="inputLastName" placeholder="Last Name">
+                <input type="text" class="form-control input-signup fonte-padrao fs-4" id="inputLastName" placeholder="Last Name" required>
             </div>
             <div class="col-md-4">
-                <input type="text" class="form-control input-signup" id="inputRG" placeholder="RG">
+                <input type="number" class="form-control input-signup fonte-padrao fs-4" id="inputRG" pattern=".{9,}" placeholder="RG" required>
+                <div class="invalid-feedback">
+                    Your RG must contain 9 numbers (don't need hifen).
+                </div>
             </div>
             <div class="col-md-4">
-                <input type="email" class="form-control input-signup" id="inputEmail4" placeholder="E-MAIL">
+                <input type="email" class="form-control input-signup fonte-padrao fs-4" id="inputEmail4" placeholder="E-MAIL" required>
             </div>
             <div class="col-md-4">
-                <input type="password" class="form-control input-signup" id="inputPassword4" placeholder="PASSWORD">
+                <input type="password" class="form-control input-signup fonte-padrao fs-4" id="inputPassword4" pattern="(?=.*\d)(?=.*[a-z]).{8,}" placeholder="PASSWORD" required>
+                <div class="invalid-feedback">
+                    Must contain at least one number and one letter, and at least 8 or more characters.
+                </div>
             </div>
             <div class="col-md-4">
-                <input type="password" class="form-control input-signup" id="inputConfirmPassword" placeholder="CONFIRM PASSWORD">
+                <input type="password" class="form-control input-signup fonte-padrao fs-4" id="inputConfirmPassword" placeholder="CONFIRM PASSWORD" required>
             </div>
             <div class="col-md-4">
-                <input type="text" class="form-control input-signup" id="inputZip" placeholder="ZIP" onblur="pesquisacep(this.value);">
+                <input type="number" class="form-control input-signup fonte-padrao fs-4" id="inputZip" placeholder="ZIP" required>
             </div>
             <div class="col-4">
-                <input type="text" class="form-control input-signup" id="inputAddress" placeholder="Adress (e.g. 1234 Main St)">
+                <input type="text" class="form-control input-signup fonte-padrao fs-4" id="inputAddress" placeholder="Adress (e.g. 1234 Main St)" required>
             </div>
             <div class="col-4">
-                <input type="text" class="form-control input-signup" id="inputAddress2" placeholder=" Adress 2 (e.g. Apartment, studio, or floor)">
+                <input type="text" class="form-control input-signup fonte-padrao fs-4" id="inputAddress2" placeholder=" Adress 2 (e.g. Apartment, studio, or floor)" required>
             </div>
             <div class="col-md-4">
-                <input type="text" class="form-control input-signup" id="inputNumber" placeholder="Number">
+                <input type="number" class="form-control input-signup fonte-padrao fs-4"  id="inputNumber" placeholder="Number" required>
             </div>
             <div class="col-md-4">
-                <input type="text" class="form-control input-signup" id="inputCity" placeholder="City">
+                <input type="text" class="form-control input-signup fonte-padrao fs-4" id="inputNeighborhood" placeholder="Neighborhood" required>
             </div>
             <div class="col-md-4">
-                    <input type="text" class="form-control input-signup" id="inputState" placeholder="State">
+                <input type="text" class="form-control input-signup fonte-padrao fs-4" id="inputCity" placeholder="City" required>
             </div>
-            <div class="div-botao-signup mt-5">
-                <button type="submit" class="btn botao-signup">Sign up!</button>
+            <div class="div-botao-signup mt-4">
+                <button type="submit" class="btn botao-signup" onclick="">Sign up!</button>
             </div>
         </form>
     </section>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+            });
+        }, false);
+        })();
+
+    </script>
+
+    <script src="app/model/CepModel.js"></script>
+    <script src="app/view/CepView.js"></script>
+    <script src="app/controller/CepController.js"></script>
+    <script src="app/controller/FlixController.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"

@@ -1,10 +1,9 @@
 .img-fluid{
-    background-image: url(./imgs/netflix-bg2.jpg);
+    background-image: url(../../imgs/netflix-bg2.jpg);
 }
 
-.section-central{
+.div-central{
     display: flex;
-    flex-direction: column;
     width: 1026px;
     height: 553px;
     border-radius: 23px;
@@ -57,11 +56,10 @@
     border-bottom: 10px #E9E9E9 ;
 }
 
-.signup{
+.signin{
     color: #E9E9E9;
     font-size: 48px;
     line-height: 58px;
-    margin-left: 20px;
 }
 
 .border-start{
@@ -75,18 +73,18 @@
     align-items: center;
 }
 
-.input-signup::-webkit-input-placeholder{
+.input-signin::-webkit-input-placeholder{
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
 }
 
-.div-botao-signup{
+.div-botao-signin{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.botao-signup{
+.botao-signin{
     background-color: #FAD100;
     color: black;
     font-family: 'Bebas Neue', cursive;
@@ -106,9 +104,4 @@
 
 .link-no-decoration:hover{
     color:white;
-}
-
-.select-state::-webkit-option{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
 }
