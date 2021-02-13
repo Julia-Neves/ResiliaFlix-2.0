@@ -8,8 +8,20 @@
 
 .fas{
     font-size: 25px;
+    color:lightgray;
 }
 .img-film{
     max-width: 200px;
     height: 280px;
+}
+body{
+   background-color: black; 
+}
+
+.navegacao{
+    background-color: #2F2E2E;
+}
+
+.rodape{
+    background-color: #2F2E2E
 }
