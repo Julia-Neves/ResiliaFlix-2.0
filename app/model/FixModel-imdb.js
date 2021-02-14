@@ -1,0 +1,1 @@
+`http://www.omdbapi.com/?t=${superman}&plot=full&&apikey=65ef2f10`
