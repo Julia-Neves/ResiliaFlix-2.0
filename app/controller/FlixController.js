@@ -1,16 +1,20 @@
-// let click = document.querySelector(".click")
-// click.addEventListener("click", function(){
-//     event.preventDefault();
-//     console.log(click.id);
-// })
+class FlixController{
 
-class FilmeController{
     constructor(filme){
-       this.filmes = filme;
-        let enviar = new Filme();
+
+        this.filme = filme;
+        this.filmeModel = new Filme();
+
+        this.view = new FlixView();
     }
-    
-    enviar.requestFilm();
-    
+
+    enviar(idFilme){
+
+        console.log('ID' + idFilme);
+        this.filmeModel.requestFilm(idFilme);
+        this.view.modal(this.filmeModel.title);
+        
+    }
+
 }
 

@@ -367,3 +367,7 @@ textarea {
 a{
     text-decoration: none;
 }
+
+img:hover{
+    cursor: pointer;
+}
