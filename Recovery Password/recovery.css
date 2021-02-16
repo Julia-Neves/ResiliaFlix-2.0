@@ -1,0 +1,39 @@
+.img-fluid{
+    background-image: url(./img/netflix-bg2.jpg);
+}
+
+.section-central{
+    display: flex;
+    flex-direction: column;
+    width: 1026px;
+    height: 553px;
+    border-radius: 23px;
+    background-color: black;
+    opacity: 0.85;
+    box-sizing: border-box;
+}
+
+.fonte-padrao{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.095em;
+}
+
+.resiliaflix-logo{
+    width: 250px;
+    height: 63px;
+    border-bottom: 10px #E9E9E9 ;
+}
+
+.botao-send{
+    background-color: #FAD100;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 132px;
+}
+
+.input-email::-webkit-input-placeholder{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
