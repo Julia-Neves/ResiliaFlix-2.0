@@ -118,3 +118,8 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
 }
+
+.fonte-padrao{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.095em;
+}

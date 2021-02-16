@@ -40,3 +40,12 @@ body{
     border-radius: 20px;
     width: 132px;
 }
+
+.fonte-padrao{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.095em;
+}
+
+.link-user:hover{
+    color:#FAD100;
+}
