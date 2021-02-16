@@ -24,20 +24,6 @@
     border-bottom: 10px #E9E9E9 ;
 }
 
-.botao-send{
-    background-color: #FAD100;
-    color: black;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    border-radius: 20px;
-    width: 132px;
-}
-
-.input-email::-webkit-input-placeholder{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-}
-
 .btns{
     color:white;
     text-decoration: none;
