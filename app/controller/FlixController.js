@@ -1,3 +1,4 @@
+/* controllers */
 class FlixController{
 
     constructor(filme){
