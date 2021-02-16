@@ -1,0 +1,114 @@
+.img-fluid{
+    background-image: url(../../imgs/netflix-bg2.jpg);
+}
+
+.section-central{
+    display: flex;
+    flex-direction: column;
+    width: 1026px;
+    height: 553px;
+    border-radius: 23px;
+    background-color: black;
+    opacity: 0.85;
+    box-sizing: border-box;
+}
+
+.div-esquerda{
+    width: 496px;
+    height: 528px; 
+    background: rgba(201, 182, 86, 0.72);
+    border-radius: 33px;
+    margin: 10px 10px;
+}
+
+.fonte-padrao{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.095em;
+}
+
+.texto-descritivo{
+    width: 437px;
+    height: 528px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    left: 303px;
+    top: 112px;
+    color: white;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.095em;
+    text-transform: capitalize;
+    margin: auto;
+}
+
+.div-direita{
+    width: 484px;
+    height: 524px;
+    left: 805px;
+    top: 96px;
+    margin: 10px 10px;
+    padding-left: 20px;
+}
+
+.resiliaflix-logo{
+    width: 250px;
+    height: 63px;
+    border-bottom: 10px #E9E9E9 ;
+}
+
+.signup{
+    color: #E9E9E9;
+    font-size: 48px;
+    line-height: 58px;
+    margin-left: 20px;
+}
+
+.border-start{
+    color: #E9E9E9;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-signup::-webkit-input-placeholder{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.div-botao-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-signup{
+    background-color: #FAD100;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 132px;
+}
+
+.input-signin{
+    width: 402px;
+}
+
+.link-no-decoration{
+    text-decoration: none;
+    color: #FAD100;
+}
+
+.link-no-decoration:hover{
+    color:white;
+}
+
+.select-state::-webkit-option{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
