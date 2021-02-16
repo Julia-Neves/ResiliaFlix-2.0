@@ -16,9 +16,10 @@ class FlixView{
 
         this.title.textContent = objeto.Title;
         this.poster.setAttribute("src", objeto.Poster);
-        this.year.textContent = objeto.Year;
-        this.runTime.textContent = objeto.Runtime;
-        this.genero.textContent = objeto.Genre;
+        this.year.textContent = `Year: ${objeto.Year}`;
+        this.runTime.textContent = `Runtime: ${objeto.Runtime}`;
+        this.genero.textContent = `Genre: ${objeto.Genre}`;
+        this.imdb.textContent = `IMDB Rating: ${objeto.imdbRating}`;
         this.sinopse.textContent = objeto.Plot;
         this.imdb.textContent = objeto.imdbRating;
         this.poster.classList.remove('w-75');

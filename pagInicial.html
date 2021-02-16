@@ -7,6 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/f3855d6494.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/pagInicial.css">
@@ -61,13 +62,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./imgs/img/banners-carrossel/forrest-gump-banner.png" class="d-block w-100" alt="...">
+          <img id="forrest gump" onclick="controller.enviar(id)" src="./imgs/img/banners-carrossel/forrest-gump-banner.png" class="d-block w-100" alt="Banner of carousel of the movie Forrest Gump." data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
         <div class="carousel-item">
-          <img src="./imgs/img/banners-carrossel/interestellar-banner.png" class="d-block w-100" alt="...">
+          <img id="interstellar" onclick="controller.enviar(id)" src="./imgs/img/banners-carrossel/interestellar-banner.png" class="d-block w-100" alt="Banner of carousel of the movie Interestellar." data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
         <div class="carousel-item">
-          <img src="./imgs/img/banners-carrossel/mononoke-banner.png" class="d-block w-100" alt="...">
+          <img id="princess mononoke" onclick="controller.enviar(id)" src="./imgs/img/banners-carrossel/mononoke-banner.png" class="d-block w-100" alt="Banner of carousel of the movie Princess Mononoke." data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -84,15 +85,15 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
+        <div class="modal-content mt-0 bg-transparent border-3 border-light">
         <div class="modal-content mt-0 bg-transparent border border-light">
           <div class="d-flex justify-content-end">
-            <button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="modal" aria-label="Close"></button> <!--  -->
+            <button type="button" class="btn-close btn-close-white p-3" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body ">
             <div class="imagem">
-              <!-- <img class="poster" src=""> -->
             </div>
             
             <div class="row ">
@@ -117,78 +118,87 @@
                       </div>
                     </div>
 
-                    <div class="sinopses m-auto w-75">
+                    <div class="sinopses m-auto w-75 border-1 border-light">
                       <p class="sinopse p-2 text-light"></p>
                     </div>
                   </div>
                 </div>
-                
+                <div class="d-flex justify-content-center">
+                  <button type="button" class="btn botao-watchnow">WATCH NOW!</button>
+                </div>
               </div>
             </div>
 
           </div>
-          <!-- <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div> -->
+        </div>
         </div>
       </div>
     </div>
 
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col ">
+        <div class="col">
           <img id="inglourious" onclick="controller.enviar(id)" class="img-film m-2 click"
             src="imgs/img/Filmes/bastardos.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="the+dark+knight" onclick="controller.enviar(id)" class="img-film m-2"
+        <div class="col">
+          <img id="the dark knight" onclick="controller.enviar(id)" class="img-film m-2"
             src="imgs/img/Filmes/batman.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/chihiro.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="spirited away" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/chihiro.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/forrest.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="forrest gump" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/forrest.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
-
       </div>
+
       <div class="row">
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/godfather.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="the godfather" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/godfather.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/interestelar.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="Interstellar" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/interestelar.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/mononoke.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="princess mononoke" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/mononoke.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/parasita.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="parasite" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/parasita.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
-
       </div>
+
       <div class="row">
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/requiem.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="requiem for a dream" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/requiem.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/senhordosaneis.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="lord of the rings" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/senhordosaneis.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/shawshank.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="shawshank" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/shawshank.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
         
-        <div class="col ">
-          <img id="NOME-DO-FILME" onclick="controller.enviar(id)" class="img-film m-2" src="imgs/img/Filmes/truman.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="col">
+          <img id="truman show" onclick="controller.enviar(id)" class="img-film m-2" 
+          src="imgs/img/Filmes/truman.JPG" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </div>
 
       </div>

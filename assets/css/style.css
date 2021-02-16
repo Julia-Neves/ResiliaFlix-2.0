@@ -93,6 +93,17 @@
     width: 132px;
 }
 
+.botao-signin:hover{
+    background-color: black;
+    border-color: #E9E9E9;
+    color:#E9E9E9
+}
+
+.link-login{
+    text-decoration: none;
+    color: black
+}
+
 .input-signin{
     width: 402px;
 }
