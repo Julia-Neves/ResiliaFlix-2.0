@@ -1,3 +1,4 @@
+/* controllers */
 class FlixController{
 
     constructor(filme){
@@ -19,6 +20,10 @@ class FlixController{
         this.view.modal(this.filmeModel.title);
         
     };
+
+    erro(){
+        this.view.modal(this.filmeModel.erro);
+    }
 
 
     buscar(){
