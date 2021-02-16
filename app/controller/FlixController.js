@@ -20,6 +20,10 @@ class FlixController{
         
     };
 
+    erro(){
+        this.view.modal(this.filmeModel.erro);
+    }
+
 
     buscar(){
         
