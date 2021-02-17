@@ -18,13 +18,13 @@
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
-      <div class=" navegacao container-fluid justify-content-between align-self-center">
+      <div class=" navegacao container-fluid justify-content-between">
         <a class="navbar-brand link-resiliaflix" href="pagInicial.html">
           <img class="w-100" src="imgs/img/resiliaflixlogo.png">
         </a>
         <div>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="inputBuscar">
+            <input class="form-control me-2 fonte-padrao" type="search" placeholder="Search" aria-label="Search" id="inputBuscar">
             <button id="btnBuscar" class="bg-transparent border-0"><i class="fas fa-search" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></button>
           </form>
         </div>
@@ -34,8 +34,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div>
-          <div class="collapse navbar-collapse align-self-center" id="navbarSupportedContent">
-            <div class="navbar-nav me-auto mb-2 mb-lg-0 align-self-center">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav me-auto mb-2 mb-lg-0">
                 <a class="link-user mt-1 text-decoration-none fonte-padrao text-light p-2 align-middle" href="#">My list</a>
                 <a class="link-user mt-1 text-decoration-none fonte-padrao text-light p-2 align-middle" href="index.html">Log out</a>
                 <img class="avatar-user rounded-circle" src="./imgs/FOTU.JPG">
@@ -111,9 +111,9 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="div-botao-watchnow d-flex justify-content-center">
-                  <button type="button" class="btn botao-watchnow m-3">WATCH NOW!</button>
-                </div> -->
+                <div class="div-botao-watchnow d-flex justify-content-center">
+                  <button id="button-watchnow" type="button" class="btn botao-watchnow m-3" >WATCH NOW!</button>
+                </div>
               </div>
             </div>
 
@@ -195,49 +195,107 @@
   </main>
 
   <footer class="rodape">
+
+    <!--MODAL WHO WE ARE-->
+
+    <div class="modal" id="modal-whoweare" tabindex="-1">
+      <div class="modal-dialog bg-dark">
+        <div class="modal-content bg-dark">
+          <div class="modal-header bg-dark">
+            <h5 class="modal-title fs-1 text-light fonte-padrao">G2 Tech Resilia</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex justify-content-center">
+              <img class="w-50 text-light fonte-padrao rounded-circle" src="imgs/G2Tech.jpg">
+            </div>
+            <div class="d-flex justify-content-center mb-2 mt-2">
+              <p class="text-light fonte-padrao">We are the team who made this project for 
+                <a class="text-decoration-none text-light fonte-padrao" href="https://www.resilia.work/">Resilia Educação</a> 
+                <br>You can find us in LinkedIn and GitHub below:</p>
+            </div>
+            <div class="d-flex flex-column m-auto w-100">
+              <div class="d-flex m-2 align-items-center justify-content-between">
+                <img class="avatar-user rounded-circle m-2" src="imgs/Team/giulia.jpeg" href="#">
+                <p class="text-light fonte-padrao w-50 fs-3">Giulia Brião</p>
+                <a class="" href="https://www.linkedin.com/in/giuliabriao/"><i class="fab fa-linkedin icon "></i></a>
+                <a href="https://github.com/giuliabriao"><i class="fab fa-github icon m-2"></i></a>
+              </div>
+              <div class="d-flex m-2 align-items-center justify-content-between">
+                <img class="avatar-user rounded-circle m-2" src="imgs/Team/bruno.jpg" href="#">
+                <p class="text-light fonte-padrao w-50 fs-3">Bruno Sampaio</p>
+                <a href="https://www.linkedin.com/in/bruno-sampaio-a374b1170/"><i class="fab fa-linkedin icon "></i></a>
+                <a href="https://github.com/BrunoSampaioDev"><i class="fab fa-github icon m-2"></i></a>
+              </div>
+              <div class="d-flex m-2 align-items-center justify-content-between">
+                <img class="avatar-user rounded-circle m-2" src="imgs/Team/adriano.jpg" href="#">
+                <p class="text-light fonte-padrao text-nowrap w-50 fs-3">Adriano Barreto</p>
+                <a href="https://www.linkedin.com/in/adrianooscar/"><i class="fab fa-linkedin icon "></i></a>
+                <a href="https://github.com/Adrianooscar"><i class="fab fa-github icon m-2"></i></a>
+              </div>
+              <div class="d-flex m-2 align-items-center justify-content-between">
+                <img class="avatar-user rounded-circle m-2" src="imgs/Team/gustavo.jpg" href="#">
+                <p class="text-light fonte-padrao text-nowrap w-50 fs-3">Gustavo Veríssimo</p>
+                <a href="https://www.linkedin.com/in/gustavo-ver%C3%ADssimo-5533861a3/"><i class="fab fa-linkedin icon "></i></a>
+                <a href="https://github.com/GustavoVerissimo"><i class="fab fa-github icon m-2"></i></a>
+              </div>
+              <div class="d-flex m-2 align-items-center justify-content-between">
+                <img class="avatar-user rounded-circle m-2" src="imgs/Team/juliaBeta.png" href="#">
+                <p class="text-light fonte-padrao w-50 fs-3">Julia Neves</p><a href="#"><i class="fab fa-linkedin icon "></i></a>
+                <a href="https://github.com/Julia-Neves"><i class="fab fa-github icon m-2"></i></a>
+              </div>              
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary fonte-padrao" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row row-cols-1 row-cols-lg-4 g-2 g-lg-3">
         <div class="col">
-          <div class="p-3  ">
-            <ul class=" p-2 mt-4 col">
-              <li class="p-2"><a href="" class="text-light font-weight-bold">(21) 0909-0987</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Relações com investidores</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Formas de assistir</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Informações croporativas</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">FAQ</a></li>
+          <div class="p-3">
+            <ul class=" p-2 mt-2 col">
+              <li class="p-2"><a href="" class="text-light font-weight-bold fonte-padrao fs-3" 
+                data-bs-toggle="modal" data-bs-target="#modal-whoweare">Who we are</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">How to watch</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Cooperatives informations</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">FAQ</a></li>
             </ul>
           </div>
         </div>
         <div class="col">
-          <div class="p-3  ">
-            <ul class=" p-2 mt-4 col">
-              <li class="p-2"><a href="" class="text-light font-weight-light">Carreiras</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Centro de ajuda</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Termos de uso</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Entre em contato</a></li>
+          <div class="p-3">
+            <ul class=" p-2 mt-2 col">
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Careers</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Help Center</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Terms of use</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Get in touch</a></li>
 
             </ul>
           </div>
         </div>
         <div class="col">
-          <div class="p-3  ">
-            <ul class=" p-2 mt-4 col">
-              <li class="p-2"><a href="" class="text-light font-weight-light">Teste de velocidade</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Privacidade</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Resgatar cartão pré-pago</a></li>
-              <li class="p-2"><a href="" class="text-light font-weight-light">Conta</a></li>
+          <div class="p-3">
+            <ul class=" p-2 mt-2 col">
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Speed test</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Privacy</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Rescue pre-payed card</a></li>
+              <li class="p-2"><a href="" class="text-light font-weight-light fonte-padrao">Account</a></li>
 
             </ul>
           </div>
         </div>
         <div class="col">
-          <div class="p-3  ">
-            <ul class=" p-2 mt-4 col">
-              <li class="p-2"><a href="" class="text-light">Imprensa</a></li>
-              <li class="p-2"><a href="" class="text-light">Comprar cartão pré-pago</a></li>
-              <li class="p-2"><a href="" class="text-light">Preferências de cookies</a></li>
-              <li class="p-2"><a href="" class="text-light">Avisos legais</a></li>
-
+          <div class="p-3">
+            <ul class=" p-2 mt-2 col">
+              <li class="p-2"><a href="" class="text-light fonte-padrao">Imprensa</a></li>
+              <li class="p-2"><a href="" class="text-light fonte-padrao">Comprar cartão pré-pago</a></li>
+              <li class="p-2"><a href="" class="text-light fonte-padrao">Preferências de cookies</a></li>
+              <li class="p-2"><a href="" class="text-light fonte-padrao">Avisos legais</a></li>
             </ul>
           </div>
         </div>
@@ -246,7 +304,7 @@
     </div>
 
     <div class="row mx-auto row-cols-1 row-cols-lg-1">
-      <p class="p-3 text-light text-center">© - ResiliaFlix todos os direitos reservados</p>
+      <p class="p-3 text-light text-center fonte-padrao">© - ResiliaFlix todos os direitos reservados</p>
     </div>
   </footer>
 
