@@ -10,7 +10,6 @@ class FlixController{
 
     enviar(idFilme){
 
-        console.log('ID' + idFilme);
         this.filmeModel.requestFilm(idFilme);
         this.view.modal(this.filmeModel.title);
         
