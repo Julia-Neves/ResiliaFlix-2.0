@@ -62,6 +62,7 @@ body{
 
 .icon{
     font-size: 25px;
+    color:#FAD100;
 }
 
 .resilia:hover{
@@ -70,4 +71,8 @@ body{
 
 .invisible{
     display: none;
+}
+
+.titulo-filme{
+    color:#FAD100;
 }
