@@ -95,20 +95,31 @@
     width: 132px;
 }
 
+.botao-signup:hover{
+    background-color: black;
+    border-color: #E9E9E9;
+    color:#E9E9E9
+}
+
 .input-signin{
     width: 402px;
 }
 
-.link-no-decoration{
+.link-login-cadastro{
     text-decoration: none;
-    color: #FAD100;
+    color: white;
 }
 
-.link-no-decoration:hover{
-    color:white;
+.link-login-cadastro:hover{
+    color:#FAD100;
 }
 
 .select-state::-webkit-option{
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
+}
+
+.fonte-padrao{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.095em;
 }

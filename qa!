@@ -1,0 +1,213 @@
+[33mcommit 4a4d4434b3dfb330df34621a7a544c657acf9f61[m[33m ([m[1;36mHEAD -> [m[1;32mgiulia[m[33m)[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Tue Feb 16 15:44:16 2021 -0300
+
+    Coloquei id nos filmes, inclusive dos banners
+
+[33mcommit 7605179ab8405d3a3baf9198cb4603968cb834fa[m
+Merge: 6ccdf39 b7f43e5
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Tue Feb 16 15:11:28 2021 -0300
+
+    update
+
+[33mcommit 6ccdf390c2260240d4eaa98f430e6218822cd669[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Tue Feb 16 15:07:55 2021 -0300
+
+    Mudando nome dos <titles>
+
+[33mcommit 9afe59c2dc256c1f9678fd0a17ca96c5e10b705c[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Tue Feb 16 14:20:41 2021 -0300
+
+    update
+
+[33mcommit 4a7d8f56dd527a0512cdd88b1674d7c6767b6873[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Tue Feb 16 13:35:37 2021 -0300
+
+    update
+
+[33mcommit b7f43e54384a9985998e96b97555108300a156fc[m[33m ([m[1;32mdeveloped[m[33m)[m
+Merge: e609daa e7ce50e
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Mon Feb 15 21:27:55 2021 -0300
+
+    Merge remote-tracking branch 'origin/julia' into developed
+
+[33mcommit e609daacb80756edc3ff89db0f6937ce91ee76a8[m[33m ([m[1;31morigin/bruno[m[33m)[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Mon Feb 15 17:25:55 2021 -0300
+
+    model API finalizada
+
+[33mcommit e7ce50e40e2845716d66a85c2c9db9976047f04a[m[33m ([m[1;31morigin/julia[m[33m)[m
+Author: Julia Neves <juliadr3@hotmail.com>
+Date:   Mon Feb 15 16:17:49 2021 -0300
+
+    Adicionando página de confirm Password
+
+[33mcommit bea74d92b61a11d9ff4d2360b1225c8fe8b90a85[m
+Merge: 4ccf88e d0fe22a
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Mon Feb 15 14:02:54 2021 -0300
+
+    Merge remote-tracking branch 'origin/developed' into bruno
+
+[33mcommit 4ccf88ebfd7c9af9e7a6af81b90298ca5deebfde[m
+Merge: 1b24dcb 93e31a1
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Mon Feb 15 13:54:59 2021 -0300
+
+    Merge remote-tracking branch 'origin/developed' into bruno
+
+[33mcommit d0fe22a194582ecd94dc49054be7dd04da78896c[m
+Merge: 48652f3 93e31a1
+Author: Julia Neves <juliadr3@hotmail.com>
+Date:   Sun Feb 14 19:03:43 2021 -0300
+
+    Continuação da página api filmes
+
+[33mcommit 48652f38f94dfb59d33c2f857d02e7c1e9070f75[m
+Author: Julia Neves <juliadr3@hotmail.com>
+Date:   Sun Feb 14 18:23:36 2021 -0300
+
+    conflito2
+
+[33mcommit 93e31a1df30421037e6a654e2d97e339eb63ef56[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sun Feb 14 18:20:35 2021 -0300
+
+    adriano page inicial
+
+[33mcommit 52a7133c6fb2a3f06801516a26f1aff022b92dfe[m
+Merge: 15a3c60 3c875e7
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sun Feb 14 18:19:16 2021 -0300
+
+    Merge remote-tracking branch 'origin/adriano' into developed
+
+[33mcommit d7e9a5e169e3c8a15b48ab23d4e1389c5e7a3e7d[m
+Merge: 675297c 15a3c60
+Author: Julia Neves <juliadr3@hotmail.com>
+Date:   Sun Feb 14 18:14:53 2021 -0300
+
+    conflito
+
+[33mcommit 675297c905c8c48d8ded4d4960f607b8de2dc46d[m
+Author: Julia Neves <juliadr3@hotmail.com>
+Date:   Sun Feb 14 18:08:46 2021 -0300
+
+    inicio da integração com api ao mdb
+
+[33mcommit 15a3c604e88034ee9bfc5d88a687e5e194c2f81a[m
+Merge: 98e043a f372eab
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sun Feb 14 16:56:01 2021 -0300
+
+    Merge remote-tracking branch 'origin/julia' into developed
+
+[33mcommit f372eabc8fb77a009b61ff0ea51d8370edbacbfa[m
+Author: Julia Neves <juliadr3@hotmail.com>
+Date:   Sun Feb 14 16:37:16 2021 -0300
+
+    recuperação de senha finalizada
+
+[33mcommit 3c875e76b2e4aaebc36f9298a709e6bf4c2c512e[m[33m ([m[1;31morigin/adriano[m[33m)[m
+Author: Adriano Barreto <adrianooscar.mb@hotmail.com>
+Date:   Fri Feb 12 21:22:17 2021 -0300
+
+    atualização da pagina inicial
+
+[33mcommit ee7cd0ab2f2a60fb8399f0a84725ea6b0311735f[m
+Author: Adriano Barreto <adrianooscar.mb@hotmail.com>
+Date:   Fri Feb 12 20:43:14 2021 -0300
+
+     carrocel e grid de filme terminados
+
+[33mcommit 98e043a8116a804bee48968f1c3185fd57588242[m
+Merge: c14dd8c 9211074
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Fri Feb 12 19:40:26 2021 -0300
+
+    Merge remote-tracking branch 'origin/giulia' into developed
+
+[33mcommit 9211074fa6b3c9c53a51e5e1c909ebcda783b9c3[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Fri Feb 12 19:28:00 2021 -0300
+
+    Navbar da pagina inicial feita
+
+[33mcommit dfcc12ae67adc3a21f74b70403a9e5ee28d895ff[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Wed Feb 10 21:41:13 2021 -0300
+
+    Validação do forms de cadastro: RG e Password
+
+[33mcommit d0edbf89d4696da1922b78d5adf57feb2603eeea[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Wed Feb 10 21:15:30 2021 -0300
+
+    Validando envio do login
+
+[33mcommit 728cd2ca5ab1fcba5fbf99e28072511b89d3dde4[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Wed Feb 10 20:24:22 2021 -0300
+
+    Integração com API ViaCEP
+
+[33mcommit c14dd8c0e85fd8e2f6a68137ade10a64c2fa8630[m
+Merge: 830e694 762b2bb
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Mon Feb 8 22:36:34 2021 -0300
+
+    Merge remote-tracking branch 'origin/giulia' into developed
+
+[33mcommit 762b2bb6c3df41deba370c7afbdd0d8f5df760b2[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Mon Feb 8 22:12:35 2021 -0300
+
+    criação da pagina de login, cadastro e uso do bootstrap
+
+[33mcommit 830e694d3a9a671ef40df127c3c15e142e602096[m[33m ([m[1;32mmain[m[33m)[m
+Author: giuliabriao <briaogiulia@gmail.com>
+Date:   Mon Feb 8 11:55:30 2021 -0300
+
+    Adicionando pasta com as imagens necessárias para o ResiliaFlix
+
+[33mcommit d768ff7d4fba60b48958b8410dc0d1fbccb39af6[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sat Feb 6 22:16:28 2021 -0300
+
+    update README.md
+
+[33mcommit cd18860b728d968e2ff53d2749843326e037221f[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sat Feb 6 21:28:14 2021 -0300
+
+    add README.MD
+
+[33mcommit 1b24dcbe823c7eeb60a7dcf9b534a405f7d5893e[m[33m ([m[1;32mbruno[m[33m)[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sat Feb 6 21:17:49 2021 -0300
+
+    mini jq
+
+[33mcommit 05abd9c489fe18b67f78d2b0c2b54273cfe9bf7f[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sat Feb 6 17:02:00 2021 -0300
+
+    Estrutura de arquivos
+
+[33mcommit 618c973219ca227670addf4ae332d72418e9e67a[m
+Author: Bruno Sampaio <43282958+BrunoSampaioDev@users.noreply.github.com>
+Date:   Sat Feb 6 16:58:26 2021 -0300
+
+    Delete .DS_Store
+
+[33mcommit 9dea40dc58dc89d5ef8f4e72eca1fa897bf22da6[m
+Author: BrunoSampaioDev <sampaionascimento100@gmail.com>
+Date:   Sat Feb 6 16:57:10 2021 -0300
+
+    First Commit
