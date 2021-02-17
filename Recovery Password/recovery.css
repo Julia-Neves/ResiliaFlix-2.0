@@ -33,6 +33,12 @@
     width: 132px;
 }
 
+.botao-send:hover{
+    background-color: black;
+    border-color: #E9E9E9;
+    color:#E9E9E9
+}
+
 .input-email::-webkit-input-placeholder{
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
