@@ -58,6 +58,6 @@ As seguintes ferramentas foram usadas na construção do projeto até o presente
 _OBS: Este projeto está sendo atualizado constantemente, sempre que temos algum tempo sobrando aproveitamos para
 implementar novos comportamentos na interface, corrigir bugs etc..._
 
-#### Demonstação do template na versão Desktop. (Versão mobail em desenvolvimento)
+#### Demonstação do template na versão Desktop. (Versão mobile em desenvolvimento)
 
 ![alt text](gitHubAssets/rfx-01.gif)       ![alt text](gitHubAssets/rfx-02.gif) ![alt text](gitHubAssets/rfx-03.gif)
