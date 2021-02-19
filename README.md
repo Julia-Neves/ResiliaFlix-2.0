@@ -60,4 +60,4 @@ implementar novos comportamentos na interface, corrigir bugs etc..._
 
 #### Demonstação do template na versão Desktop. (Versão mobile em desenvolvimento)
 
-![alt text](gitHubAssets/rfx-01.gif)       ![alt text](gitHubAssets/rfx-02.gif) ![alt text](gitHubAssets/rfx-03.gif)
+![alt text](https://drive.google.com/file/d/1zJdfFsmeVTSIfGWPDYb6DpPKv0Ms_xpK/view?usp=sharing)       ![alt text](gitHubAssets/rfx-02.gif) ![alt text](gitHubAssets/rfx-03.gif)
